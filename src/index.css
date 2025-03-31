@@ -1,0 +1,47 @@
+.homeimg {
+    max-width: 200px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: larger;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.nav p {
+    font-size: larger;
+}
+
+.booksContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.quotesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.quote {
+    width: 350px;
+    background-color: rgba(128, 128, 128, 0.158);
+    padding: 0 20px;
+}
+
+.quoteText {
+    font-size: larger;
+    margin-bottom: 0;
+}
+
+.quoteSource {
+    font-weight: bold;
+    font-size: small;
+    margin-left: 20px;
+}
